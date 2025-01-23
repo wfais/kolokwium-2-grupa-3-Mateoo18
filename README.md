@@ -38,3 +38,7 @@ Proszę pamiętać, że w godzinach 9:05 - 9:30 odbędzie się **Quiz nr 6**, wi
 ---
 
 Powodzenia! 😊
+
+
+KOLOKWIUM ROBIŁ MATEUSZ NOWAK.
+Uwaga: Jeden test nie przechodzi w zadaniu 2 ponieważ w pliku test_main.py nie ma zaimportowanego modułu pytest. Jeśli się go doda to wszystkie testy przechodzą, jednak nie chcę "grzebać" w pliku z testami dlatego zostawiam go nienaruszonego :). 

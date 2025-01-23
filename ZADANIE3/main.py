@@ -17,17 +17,19 @@ def draw_scatter_plot():
     np.random.seed(123)
     
     # utwórz x, y
-    # x = ...
-    # y = ...
+    x = np.arange(10)
+    y = np.random.rand(10) * 10
+    fig, ax = plt.subplots()
     
-    # fig, ax = 
-    
-    # ax.scatter( ... )
+    ax.scatter( x, y, color='blue', label='Random Points' )
     
     # label dla x, y, title, legend
-    
+    ax.set_xlabel("X axis")
+    ax.set_ylabel("Y axis")
+    ax.set_title("Scatter Plot Example")
+    ax.legend()
     # return rysunek
-    pass
+    return fig
 
 if __name__ == '__main__':
     fig = draw_scatter_plot()
